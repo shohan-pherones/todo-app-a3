@@ -99,7 +99,7 @@ const App = () => {
   };
 
   return (
-    <div className="wrapper bg-gradient-to-t from-gray-900 to-teal-900 min-h-screen text-xl text-gray-100 flex flex-col py-10">
+    <div className="wrapper bg-gradient-to-t from-gray-900 to-teal-800 min-h-screen text-xl text-gray-100 flex flex-col py-10">
       <DeleteHandlerContext.Provider value={handleDelete}>
         <EditHandlerContext.Provider value={handleEdit}>
           <Header />
